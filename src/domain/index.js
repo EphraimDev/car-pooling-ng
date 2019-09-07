@@ -1,0 +1,1 @@
+export const domain = 'https://car-pooling-ng.herokuapp.com/api/v1';
