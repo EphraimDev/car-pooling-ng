@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/car-pooling-ng/static/css/main.2cce8147.chunk.css",
+    "main.js": "/car-pooling-ng/static/js/main.144ef35a.chunk.js",
+    "main.js.map": "/car-pooling-ng/static/js/main.144ef35a.chunk.js.map",
+    "runtime~main.js": "/car-pooling-ng/static/js/runtime~main.fbb3a634.js",
+    "runtime~main.js.map": "/car-pooling-ng/static/js/runtime~main.fbb3a634.js.map",
+    "static/js/2.74a018ca.chunk.js": "/car-pooling-ng/static/js/2.74a018ca.chunk.js",
+    "static/js/2.74a018ca.chunk.js.map": "/car-pooling-ng/static/js/2.74a018ca.chunk.js.map",
+    "index.html": "/car-pooling-ng/index.html",
+    "precache-manifest.91d91d184422cd007a4b21a43f9a6ac2.js": "/car-pooling-ng/precache-manifest.91d91d184422cd007a4b21a43f9a6ac2.js",
+    "service-worker.js": "/car-pooling-ng/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/car-pooling-ng/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/car-pooling-ng/static/media/logo.5d5d9eef.svg"
+  }
+}
