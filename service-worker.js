@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/car-pooling-ng/precache-manifest.d0e92fe49c756f09cbced6b18f923557.js"
+  "/car-pooling-ng/precache-manifest.ff177eca5be61ff12f98dedcf3c6aa36.js"
 );
 
 self.addEventListener('message', (event) => {
