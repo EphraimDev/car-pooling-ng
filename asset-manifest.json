@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/car-pooling-ng/static/css/main.959265b4.chunk.css",
-    "main.js": "/car-pooling-ng/static/js/main.ce03cf85.chunk.js",
-    "main.js.map": "/car-pooling-ng/static/js/main.ce03cf85.chunk.js.map",
+    "main.js": "/car-pooling-ng/static/js/main.ba62673a.chunk.js",
+    "main.js.map": "/car-pooling-ng/static/js/main.ba62673a.chunk.js.map",
     "runtime~main.js": "/car-pooling-ng/static/js/runtime~main.fbb3a634.js",
     "runtime~main.js.map": "/car-pooling-ng/static/js/runtime~main.fbb3a634.js.map",
-    "static/js/2.f742dd8e.chunk.js": "/car-pooling-ng/static/js/2.f742dd8e.chunk.js",
-    "static/js/2.f742dd8e.chunk.js.map": "/car-pooling-ng/static/js/2.f742dd8e.chunk.js.map",
+    "static/js/2.9c51c77f.chunk.js": "/car-pooling-ng/static/js/2.9c51c77f.chunk.js",
+    "static/js/2.9c51c77f.chunk.js.map": "/car-pooling-ng/static/js/2.9c51c77f.chunk.js.map",
     "index.html": "/car-pooling-ng/index.html",
-    "precache-manifest.32acf7b81e4e82eee96e7cb11afb9c45.js": "/car-pooling-ng/precache-manifest.32acf7b81e4e82eee96e7cb11afb9c45.js",
+    "precache-manifest.3fab821862b3ab23c0f01713117e742a.js": "/car-pooling-ng/precache-manifest.3fab821862b3ab23c0f01713117e742a.js",
     "service-worker.js": "/car-pooling-ng/service-worker.js",
     "static/css/main.959265b4.chunk.css.map": "/car-pooling-ng/static/css/main.959265b4.chunk.css.map"
   }
