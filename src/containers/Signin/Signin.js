@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-// import {Link} from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import { login } from '../../actions/auth';
 import { connect } from 'react-redux';
-const Signin = ({ login, history }) => {
+// import { setAlert } from '../../actions/alert';
+const Signin = ({ login, isAuthenticated }) => {
   const [formData, setFormData] = useState({ email: '', password: '' });
   const { email, password } = formData;
   const onChange = e => {
@@ -10,9 +11,11 @@ const Signin = ({ login, history }) => {
   };
   const onFormSubmit = e => {
     e.preventDefault();
-    login(email, password, history);
+    login(email, password);
   };
-
+  if (isAuthenticated) {
+    return <Redirect to='/' />;
+  }
   return (
     <div>
       <form onSubmit={onFormSubmit}>
@@ -34,12 +37,14 @@ const Signin = ({ login, history }) => {
         />
         <input className='btn btn-primary mt-3' type='submit' name='submit' />
       </form>
-
     </div>
   );
 };
 
+const mapStateToProps = state => ({
+  isAuthenticated: state.auth.isAuthenticated
+});
 export default connect(
-  null,
+  mapStateToProps,
   { login }
 )(Signin);
