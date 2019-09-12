@@ -2,7 +2,7 @@
   "name": "car-pooling-ng",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://EphraimDev.github.io/car-pooling-ng",
+  "homepage": "https://EphraimDev.github.io/car-pooling-ng",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.9.0",
@@ -12,7 +12,8 @@
     "react-scripts": "3.1.1",
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
