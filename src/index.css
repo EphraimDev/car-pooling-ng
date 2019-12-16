@@ -6,20 +6,40 @@
   border: none;
   background: white;
 }
-#signin {
-  /* align-content: center; */
-  margin: 150px auto;
+.auth-container {
+  max-height: 100%;
+  margin: 0% !important;
+}
+.auth-page-image {
+  max-width: 100%;
+  max-height: 100%
+}
+.auth-page-image-div {
+  padding: 0 !important;
+}
+.auth-page-auth, .auth-page-homepage-link {
+  margin: 0% !important;
+  padding: 0% !important
+}
+.auth-page-auth-section {
+  float: left;
+  height: 100%;
+}
+.auth-page-homepage-link {
+
 }
 #cnt {
   margin: 0 !important;
+  height: 100%;
 }
-#img {
-  background: url('https://ak8.picdn.net/shutterstock/videos/7209418/thumb/1.jpg')
+/* #img {
+  background: url('https://ak8.picdn.net/shutterstock/videos/7209418/thumb/1.jpg') 
     no-repeat center/cover;
-  height: 100vh;
+  height: 100%;
+  max-height: 100%;
   background-size: cover;
   background-position: center;
-}
+} */
 .no-border {
   border-left: 0;
   border-right: 0;
