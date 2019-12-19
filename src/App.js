@@ -16,7 +16,7 @@ function App() {
         <Alert />
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route exact path='/signin_up' component={Signin_up} />
+          <Route exact path='/login' component={Signin_up} />
           {/* <Route exact path='/signin_up' component={Signin} />
           <Route exact path='/signup_up' component={Signup} /> */}
         </Switch>
